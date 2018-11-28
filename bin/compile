@@ -180,9 +180,9 @@ if [ -e "$APP_SOURCE_DIR"/package.json ]; then
   cd "$APP_ROOT_DIR"
   $METEOR_NPM install
 
-  echo "-----> Installing packages for Meteor app"
-  cd "$APP_SOURCE_DIR"
-  $METEOR_NPM install
+  # echo "-----> Installing packages for Meteor app"
+  # cd "$APP_SOURCE_DIR"
+  # $METEOR_NPM install
 fi
 
 # Related to https://github.com/meteor/meteor/issues/2796 and
