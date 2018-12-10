@@ -118,6 +118,7 @@ function METEOR {
 # Change into the project directory. Once we're there, 'meteor' commands will
 # run with the context of the target release (project .meteor/release) rather
 # than the "latest" that is installed by install.meteor.com.
+rm ./Procfile
 cd "$APP_SOURCE_DIR"
 
 echo "-----> Target Meteor version: `METEOR --version`"
