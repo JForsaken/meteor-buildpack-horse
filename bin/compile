@@ -4,8 +4,6 @@
 # Heroku buildpack for Meteor
 #
 
-rm /app/Procfile
-
 # fail fast.
 set -e
 # debug verbosely.
